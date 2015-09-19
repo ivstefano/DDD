@@ -6,10 +6,11 @@
  * Time: 16:30
  * Type:
  */
-namespace Methodology\Command;
+namespace Methodology\Command\Tests;
 
 use Methodology\Common\Runnable;
 use Methodology\Command\Fan\Fan;
+use Methodology\Command\ApplianceSwitch;
 use Methodology\Command\Fan\FanOnCommand;
 use Methodology\Command\Fan\FanOffCommand;
 

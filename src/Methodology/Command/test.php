@@ -7,8 +7,8 @@
  * Type:
  */
 
-use Methodology\Command\TestFan;
-use Methodology\Command\TestLight;
+use Methodology\Command\Tests\TestFan;
+use Methodology\Command\Tests\TestLight;
 
 (new TestFan())->run();
 (new TestLight())->run();
